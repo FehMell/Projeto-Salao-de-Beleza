@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav() {
   return (
-    <div className="w-full bg-white p-4 fixed top-0 left-0 z-50">
+    <div className="w-full bg-gray-50 p-4 fixed top-0 left-0 z-50">
 
       <nav className="flex items-center justify-between w-full px-4 md:px-8">
         <div>
