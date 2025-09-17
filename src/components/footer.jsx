@@ -9,10 +9,10 @@ function Footer() {
   return (
     <footer className="w-screen relative left-1/2 right-1/2 -mx-[50vw] bg-gray-800 text-white pt-10 pb-6 mt-auto">
       <div className="max-w-6xl mx-auto px-4 md:px-8">
-        {/* Grid com 4 colunas no md para poder usar col-span */}
+       
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-16 items-start">
           
-          {/* ESQUERDA - maior */}
+          
           <div className="md:col-span-2 max-w-md text-left">
             <h2 className="text-2xl md:text-3xl font-playfair font-semibold">
               Bella <span className="text-amber-500">Vitta</span>
@@ -35,7 +35,7 @@ function Footer() {
             </div>
           </div>
 
-          {/* MEIO */}
+          
           <div className="text-left">
             <h3 className="text-lg font-semibold mb-4">Links rápidos</h3>
             <ul className="space-y-2 text-sm">
@@ -47,7 +47,7 @@ function Footer() {
             </ul>
           </div>
 
-          {/* DIREITA */}
+         
           <div className="text-left">
             <h3 className="font-semibold mb-2 text-sm">Contato</h3>
             <div className="space-y-2 text-gray-300 text-xs">
