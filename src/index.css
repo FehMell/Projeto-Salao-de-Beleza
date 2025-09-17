@@ -1,0 +1,32 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+section, .section-full {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+/* Remove qualquer limite de largura */
+.max-width-unset {
+  max-width: unset !important;
+}
+
+/* Garante que imagens de background ocupem toda largura */
+.bg-full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+html, body, #root {
+  height: 100%;
+}
+
