@@ -13,12 +13,12 @@ section, .section-full {
   margin-right: -50vw;
 }
 
-/* Remove qualquer limite de largura */
+
 .max-width-unset {
   max-width: unset !important;
 }
 
-/* Garante que imagens de background ocupem toda largura */
+
 .bg-full-width {
   width: 100vw;
   position: relative;
