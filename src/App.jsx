@@ -10,7 +10,7 @@ import "./index.css";
 
 function App() {
   return (
-    // Adicione flex-col e min-h-screen para ocupar altura total
+   
     <div className="min-h-screen flex flex-col">
       <BrowserRouter>
         <Routes>
