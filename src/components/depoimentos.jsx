@@ -20,7 +20,8 @@ function Depoimentos() {
           Junte-se às centenas de clientes satisfeitas e descubra sua melhor
           versão.
         </p>
-        <button className="bg-white text- text-amber-600 font-semibold px-7 py-3 rounded-full shadow hover:bg-gray-100 transition">
+        <button onClick={() => window.open("https://wa.me/5513988658865?text=Olá!%20Gostaria%20de%20agendar%20um%20horário%20(Essa%20mensagem%20é%20ilustrativa)")}
+        className="bg-white text- text-amber-600 font-semibold px-7 py-3 rounded-full shadow hover:bg-gray-100 transition">
           Agendar Meu Horário
         </button>
       </div>

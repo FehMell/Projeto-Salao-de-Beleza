@@ -21,7 +21,8 @@ function Nav() {
           </ul>
         </div>
 
-        <button className="bg-amber-500 text-white rounded-full px-5 py-2 text-base font-medium hover:bg-amber-600 transform hover:scale-110 duration-500">
+        <button onClick={() => window.open("https://wa.me/5513988658865?text=Olá!%20Gostaria%20de%20agendar%20um%20horário%20(Essa%20mensagem%20é%20ilustrativa)")}
+        className="bg-amber-500 text-white rounded-full px-5 py-2 text-base font-medium hover:bg-amber-600 transform hover:scale-110 duration-500">
           Agendar
         </button>
       </nav>

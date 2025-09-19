@@ -31,7 +31,8 @@ function Card({ title, descricao, preco, tempo, img }) {
 
         </span>
 
-        <button className="rounded-xl w-full py-3.5 bg-amber-500 text-white font-inter font-semibold hover:bg-amber-600 transition">
+        <button onClick={() => window.open("https://wa.me/13988658865?text=Olá!%20Esta%20mensagem%20é%20ilustrativa,%20apenas%20testando%20o%20botão.")}
+        className="rounded-xl w-full py-3.5 bg-amber-500 text-white font-inter font-semibold hover:bg-amber-600 transition">
           Agendar Serviço
         </button>
       </div>

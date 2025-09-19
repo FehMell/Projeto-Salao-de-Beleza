@@ -31,7 +31,8 @@ function Hero() {
           especializados e tratamentos personalizados para você.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
-          <button className="font-semibold p-3 px-6 bg-amber-500 rounded-full text-white flex items-center justify-center gap-2 hover:bg-amber-600 transform transition hover:scale-110 duration-500">
+          <button onClick={() => window.open("https://wa.me/5513988658865?text=Olá!%20Gostaria%20de%20agendar%20um%20horário%20(Essa%20mensagem%20é%20ilustrativa)")}
+          className="font-semibold p-3 px-6 bg-amber-500 rounded-full text-white flex items-center justify-center gap-2 hover:bg-amber-600 transform transition hover:scale-110 duration-500">
             <FiCalendar size={20} /> Agendar Horário
           </button>
           <a href="#servicos">
