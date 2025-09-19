@@ -54,14 +54,14 @@ const products = [
 
 function Servicos() {
   return (
-    <section className="w-screen bg-gray-50 px-4 md:px-16 py-16">
+    <section id="servicos" className="w-screen bg-gray-50 px-4 md:px-16 pt-16 pb-10">
       <h1 className="text-4xl md:text-5xl font-playfair font-semibold text-center mb-6">
         Nossos Serviços
       </h1>
-      <p className="font-inter text-center mb-2">
+      <p className="font-inter text-center mb-2 text-gray-800">
         Oferecemos uma gama completa de serviços de beleza com produtos premium
       </p>
-      <p className="font-inter text-center mb-10">
+      <p className="font-inter text-center mb-10 text-gray-800">
         e técnicas inovadoras para realçar sua beleza natural.
       </p>
 

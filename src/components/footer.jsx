@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer className="w-screen relative left-1/2 right-1/2 -mx-[50vw] bg-gray-800 text-white pt-10 pb-6 mt-auto">
       <div className="max-w-6xl mx-auto px-4 md:px-8">
-       
+        
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-16 items-start">
           
           
@@ -35,19 +35,19 @@ function Footer() {
             </div>
           </div>
 
-          
+         
           <div className="text-left">
             <h3 className="text-lg font-semibold mb-4">Links rápidos</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-amber-600">Início</a></li>
-              <li><a href="#" className="hover:text-amber-600">Serviços</a></li>
-              <li><a href="#" className="hover:text-amber-600">Equipe</a></li>
-              <li><a href="#" className="hover:text-amber-600">Depoimentos</a></li>
+              <li><a href="#inicio" className="hover:text-amber-600">Início</a></li>
+              <li><a href="#servicos" className="hover:text-amber-600">Serviços</a></li>
+              <li><a href="#equipe" className="hover:text-amber-600">Equipe</a></li>
+              <li><a href="#depoimentos" className="hover:text-amber-600">Depoimentos</a></li>
               <li><a href="#" className="hover:text-amber-600">Contato</a></li>
             </ul>
           </div>
 
-         
+          
           <div className="text-left">
             <h3 className="font-semibold mb-2 text-sm">Contato</h3>
             <div className="space-y-2 text-gray-300 text-xs">

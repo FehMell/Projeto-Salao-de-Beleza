@@ -13,10 +13,10 @@ function Nav() {
 
         <div>
           <ul className="flex space-x-6 md:space-x-8 text-gray-800 font-semibold">
-            <li className="hover:text-amber-500"> <a href="">Ínicio</a> </li>
-            <li className="hover:text-amber-500"> <a href="">Serviços</a> </li>
-            <li className="hover:text-amber-500"> <a href="">Equipe</a> </li>
-            <li className="hover:text-amber-500"> <a href="">Depoimentos</a> </li>
+            <li className="hover:text-amber-500"> <a href="#inicio">Ínicio</a> </li>
+            <li className="hover:text-amber-500"> <a href="#servicos">Serviços</a> </li>
+            <li className="hover:text-amber-500"> <a href="#equipe">Equipe</a> </li>
+            <li className="hover:text-amber-500"> <a href="#depoimentos">Depoimentos</a> </li>
             <li className="hover:text-amber-500"> <a href="">Contato</a> </li>
           </ul>
         </div>
