@@ -26,10 +26,12 @@ function Footer() {
               clientes.
             </p>
             <div className="py-4 flex gap-3">
-              <button className="bg-amber-500 rounded-full p-2 hover:bg-amber-600 ">
+              <button onClick={() => window.open("https://www.instagram.com/feh_mell/")}
+              className="bg-amber-500 rounded-full p-2 hover:bg-amber-600  ">
                 <FaInstagram size={22} />
               </button>
-              <button className="bg-amber-500 rounded-full p-2 hover:bg-amber-600">
+              <button onClick={() => window.open("https://wa.me/5513988658865?text=Olá!%20Gostaria%20de%20agendar%20um%20horário%20(Essa%20mensagem%20é%20ilustrativa)")}
+               className="bg-amber-500 rounded-full p-2 hover:bg-amber-600">
                 <FaWhatsapp size={22} />
                 </button>
             </div>

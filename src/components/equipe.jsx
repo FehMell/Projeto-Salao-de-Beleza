@@ -31,7 +31,7 @@ const funcionarios = [
         descricao: "Expert em cortes modernos e penteados para eventos",
         experiencia: "5 anos de experiência",
         nota: "5.0",
-        img: "https://images.pexels.com/photos/3998393/pexels-photo-3998393.jpeg",
+        img: "https://images.pexels.com/photos/32936116/pexels-photo-32936116.jpeg",
     },
 
 ]
