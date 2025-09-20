@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./card"; 
+import Card from "./card";
 
 const products = [
   {
@@ -54,7 +54,10 @@ const products = [
 
 function Servicos() {
   return (
-    <section id="servicos" className="w-screen bg-gray-50 px-4 md:px-16 pt-16 pb-10">
+    <section
+      id="servicos"
+      className="w-screen bg-gray-50 px-4 md:px-16 pt-16 pb-10"
+    >
       <h1 className="text-4xl md:text-5xl font-playfair font-semibold text-center mb-6">
         Nossos Serviços
       </h1>
@@ -65,18 +68,18 @@ function Servicos() {
         e técnicas inovadoras para realçar sua beleza natural.
       </p>
 
-     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto max-w-6xl">
-  {products.map((item) => (
-    <Card
-      key={item.id}
-      title={item.title}
-      descricao={item.descricao}
-      preco={item.preco}
-      tempo={item.tempo}
-      img={item.img}
-    />
-  ))}
-</div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto max-w-6xl">
+        {products.map((item) => (
+          <Card
+            key={item.id}
+            title={item.title}
+            descricao={item.descricao}
+            preco={item.preco}
+            tempo={item.tempo}
+            img={item.img}
+          />
+        ))}
+      </div>
     </section>
   );
 }

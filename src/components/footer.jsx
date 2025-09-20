@@ -45,7 +45,7 @@ function Footer() {
               <li><a href="#servicos" className="hover:text-amber-600">Serviços</a></li>
               <li><a href="#equipe" className="hover:text-amber-600">Equipe</a></li>
               <li><a href="#depoimentos" className="hover:text-amber-600">Depoimentos</a></li>
-              <li><a href="#" className="hover:text-amber-600">Contato</a></li>
+              <li><a href="#contato" className="hover:text-amber-600">Contato</a></li>
             </ul>
           </div>
 

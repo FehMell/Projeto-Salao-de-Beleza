@@ -4,7 +4,7 @@ import { LiaCertificateSolid } from "react-icons/lia";
 
 function CardEquipe({ nome, cargo, nota, experiencia, img, descricao }) {
   return (
-    <div className="border border-white bg-gray-50 rounded-lg   transition flex flex-col overflow-hidden  relative">
+    <div className="border border-white bg-gray-50 rounded-lg   transition flex flex-col overflow-hidden relative">
       <div className="relative">
         <img
           src={img}
