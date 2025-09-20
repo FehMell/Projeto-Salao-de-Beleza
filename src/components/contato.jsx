@@ -34,7 +34,7 @@ function Contato() {
       <p className="font-inter text-center mb-2 text-gray-800">
         ao nosso salão
       </p>
-      <div className="flex justify-between pt-10 pb-40">
+      <div className="flex justify-between pt-10 pb-40 max-w-6xl mx-auto">
         <div>
           <h2 className="font-playfair font-semibold pb-5 text-2xl text-left">
             Envie uma mensagem
