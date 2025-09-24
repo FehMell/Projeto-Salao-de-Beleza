@@ -18,6 +18,8 @@ function Nav() {
             <li className="hover:text-amber-500"> <a href="#equipe">Equipe</a> </li>
             <li className="hover:text-amber-500"> <a href="#depoimentos">Depoimentos</a> </li>
             <li className="hover:text-amber-500"> <a href="#contato">Contato</a> </li>
+             <li className="hover:text-amber-500"> <a href="#espaco">Espaço</a> </li>
+
           </ul>
         </div>
 

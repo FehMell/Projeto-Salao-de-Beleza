@@ -46,6 +46,7 @@ function Footer() {
               <li><a href="#equipe" className="hover:text-amber-600">Equipe</a></li>
               <li><a href="#depoimentos" className="hover:text-amber-600">Depoimentos</a></li>
               <li><a href="#contato" className="hover:text-amber-600">Contato</a></li>
+              <li><a href="#espaco" className="hover:text-amber-600">Espaço</a></li>
             </ul>
           </div>
 
@@ -54,14 +55,14 @@ function Footer() {
             <h3 className="font-semibold mb-2 text-sm">Contato</h3>
             <div className="space-y-2 text-gray-300 text-xs">
               <p className="flex items-center gap-2">
-                <IoLocationOutline size={16} /> Rua Exemplo, 123 <br />
+                <IoLocationOutline size={16} className="text-amber-500" /> Rua Exemplo, 123 <br />
                 Vila Madalena - SP
               </p>
               <p className="flex items-center gap-2">
-                <BsTelephone size={14} /> (11) 99999-9999
+                <BsTelephone size={14} className="text-amber-500" /> (11) 99999-9999
               </p>
               <p className="flex items-center gap-2">
-                <MdOutlineMailOutline size={15} /> mell39654@gmail.com
+                <MdOutlineMailOutline size={15}className="text-amber-500"/> mell39654@gmail.com
               </p>
             </div>
 

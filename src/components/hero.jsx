@@ -5,7 +5,7 @@ import { LiaCertificateSolid } from "react-icons/lia";
 
 function Hero() {
   return (
-    <section id="inicio" className="w-screen relative h-[70vh] min-h-[500px] pt-16">
+    <section id="inicio" className="w-screen relative h-[70vh] md:h-[80vh] pt-16">
       <img
         src="https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg"
         alt="Background"
@@ -14,7 +14,7 @@ function Hero() {
 
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
-      <div className="relative z-10 flex flex-col justify-center h-full items-center px-4 md:px-16 text-white text-center">
+      <div className="relative z-10 flex flex-col justify-center h-full items-center px-4  text-white text-center">
         <p className="text-white bg-amber-400 rounded-full backdrop-blur-md bg-opacity-20 p-2 font-semibold text-sm flex items-center gap-1 border border-amber-400/30 mb-8 mt-10">
           {" "}
           <LiaCertificateSolid size={22} className="text-amber-400" /> Salão

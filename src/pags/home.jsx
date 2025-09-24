@@ -1,11 +1,12 @@
 import React from "react";
 import Nav from "../components/nav";
 import Hero from "../components/hero";
-import Servicos from "../components/servicos"
-import Footer from "../components/footer"
-import Equipe from "../components/equipe"
-import Depoimentos from "../components/depoimentos"
-import Contato from "../components/contato"
+import Servicos from "../components/servicos";
+import Footer from "../components/footer";
+import Equipe from "../components/equipe";
+import Depoimentos from "../components/depoimentos";
+import Contato from "../components/contato";
+import Espaco from "../components/espaco";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Equipe />
       <Depoimentos />
       <Contato />
+      <Espaco />
       <Footer />
     </div>
   );
