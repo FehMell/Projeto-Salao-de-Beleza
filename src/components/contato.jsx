@@ -79,7 +79,7 @@ function Contato() {
 
           <div className="flex justify-center items-center flex-grow h-60">
             {" "}
-            {/* altura controlada */}
+            
             {location ? (
               <iframe
                 title="Mapa"
